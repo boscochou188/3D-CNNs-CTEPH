@@ -12,3 +12,5 @@ https://drive.google.com/drive/folders/1EquBKqSA9MYqTXjNii1zCKaKmtiFdjfL?usp=sha
 
 4.CT20221117pe_128.ipynb
   Modeling and analysis
+  
+5.Request to update the file path in all ipynb when running in local computer
