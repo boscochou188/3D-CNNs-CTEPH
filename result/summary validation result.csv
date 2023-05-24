@@ -1,0 +1,201 @@
+,A,ID,Disease,Label,,predict,thresholds,actual,"Predict PE = 1 , Predict non-PE = 0"
+1,0,4047,Pulmonary embolism present,PE,diagnostic,40.09,40,1,1
+2,1,4051,Non-diagnostic of pulmonary embolism,PE,Non-diagnostic,19.39,40,1,0
+3,2,5016,Pulmonary embolism present,PE,diagnostic,4.39,40,1,0
+4,3,6011,Present,PE,diagnostic,18.17,40,1,0
+5,4,6015,Present,PE,diagnostic,89.49,40,1,1
+6,5,6023,Nondiagnostic,PE,Non-diagnostic,43.32,40,1,1
+7,6,6029,Present,PE,diagnostic,47.96,40,1,1
+8,7,6040,Present,PE,diagnostic,52.59,40,1,1
+9,8,1002,PH,OTHER,,27.64,40,0,0
+10,9,1005,PH,OTHER,,19.23,40,0,0
+11,10,1019,Chronic obstructive airway disease,OTHER,,15.03,40,0,0
+12,11,1025,PH,OTHER,,17.16,40,0,0
+13,12,2006,Cancer carcinoma,OTHER,,25.57,40,0,0
+14,13,2007,Cancer carcinoma,OTHER,,12.53,40,0,0
+15,14,2011,Hypoplastic right lung,OTHER,,27.94,40,0,0
+16,15,2012,Lung metastases,OTHER,,1.52,40,0,0
+17,16,3000,PH,OTHER,,35.19,40,0,0
+18,17,3003,Normal,OTHER,,3.74,40,0,0
+19,18,3004,PH,OTHER,,14.56,40,0,0
+20,19,3008,PH,OTHER,,1.8,40,0,0
+21,20,3013,OTHER,OTHER,,4.97,40,0,0
+22,21,3016,PH,OTHER,,43.51,40,0,1
+23,22,3027,PH,OTHER,,20.5,40,0,0
+24,23,4007,Pulmonary embolism absent,OTHER,,0.73,40,0,0
+25,24,4010,Lung infection,OTHER,,4.81,40,0,0
+26,25,4011,Pulmonary hypertension,OTHER,,20.06,40,0,0
+27,26,4012,Normal,OTHER,,8.86,40,0,0
+28,27,4017,Congestive heart failure,OTHER,,7.27,40,0,0
+29,28,4025,Congestive heart failure,OTHER,,0.34,40,0,0
+30,29,4040,Pulmonary embolism absent,OTHER,,11.14,40,0,0
+31,30,4042,Pulmonary embolism absent,OTHER,,7.18,40,0,0
+32,31,4054,Pulmonary hypertension,OTHER,,12.48,40,0,0
+33,32,4069,Pulmonary embolism absent,OTHER,,24.66,40,0,0
+34,33,5000,Pulmonary embolism absent,OTHER,,85.36,40,0,1
+35,34,5007,Pulmonary embolism absent,OTHER,,12.57,40,0,0
+36,35,6000,Absent,OTHER,,5.71,40,0,0
+37,36,6012,Absent,OTHER,,6.78,40,0,0
+38,37,6034,Absent,OTHER,,49.98,40,0,1
+39,38,6035,Absent,OTHER,,1.69,40,0,0
+40,39,6039,Absent,OTHER,,28.12,40,0,0
+41,0,1018,Chronic PE,PE,diagnostic,24.97,20,1,1
+42,1,2001,PE,PE,diagnostic,49.84,20,1,1
+43,2,4038,Chronic pulmonary embolism,PE,diagnostic,54.96,20,1,1
+44,3,4053,Pulmonary embolism present,PE,diagnostic,39.56,20,1,1
+45,4,5004,Pulmonary embolism present,PE,diagnostic,71.16,20,1,1
+46,5,5012,Pulmonary embolism present,PE,diagnostic,58.36,20,1,1
+47,6,5015,Non diagnostic for pulmonary embolism,PE,Non-diagnostic,69.67,20,1,1
+48,7,5024,Non diagnostic for pulmonary embolism,PE,Non-diagnostic,77.94,20,1,1
+49,8,5026,Pulmonary embolism present,PE,diagnostic,48.77,20,1,1
+50,9,6001,Present,PE,diagnostic,1.2,20,1,0
+51,10,6009,Present,PE,diagnostic,22.62,20,1,1
+52,11,6016,Present,PE,diagnostic,15.82,20,1,0
+53,12,6033,Present,PE,diagnostic,21.97,20,1,1
+54,13,6037,Present,PE,diagnostic,36.78,20,1,1
+55,14,1001,Lymphoma,OTHER,,1.94,20,0,0
+56,15,1009,Shortness of breath,OTHER,,34.61,20,0,1
+57,16,1013,Aortic dissection,OTHER,,14.19,20,0,0
+58,17,1016,PH,OTHER,,34.56,20,0,1
+59,18,1027,Cancer carcinoma,OTHER,,15.17,20,0,0
+60,19,1029,Cancer carcinoma,OTHER,,20.91,20,0,1
+61,20,2005,Pulmonary fibrosis,OTHER,,37.99,20,0,1
+62,21,2008,Cancer carcinoma,OTHER,,37.37,20,0,1
+63,22,3001,Post COVID-19,OTHER,,16.44,20,0,0
+64,23,3012,Fever,OTHER,,9.39,20,0,0
+65,24,3015,PH,OTHER,,28.94,20,0,1
+66,25,3018,PH,OTHER,,47.33,20,0,1
+67,26,3019,PH,OTHER,,31.63,20,0,1
+68,27,3025,Tuberculosis,OTHER,,11.85,20,0,0
+69,28,4009,Pulmonary embolism absent,OTHER,,32.01,20,0,1
+70,29,4015,Pulmonary hypertension,OTHER,,21.82,20,0,1
+71,30,4024,Pulmonary hypertension,OTHER,,16.71,20,0,0
+72,31,4029,Normal,OTHER,,18.74,20,0,0
+73,32,4030,Pneumonia,OTHER,,3.06,20,0,0
+74,33,4032,Pulmonary embolism absent,OTHER,,9.89,20,0,0
+75,34,4052,Pulmonary embolism absent,OTHER,,19.66,20,0,0
+76,35,5019,Pulmonary embolism absent,OTHER,,57.26,20,0,1
+77,36,5022,Pulmonary embolism absent,OTHER,,40.54,20,0,1
+78,37,5027,Pulmonary embolism absent,OTHER,,44.29,20,0,1
+79,38,6008,Absent,OTHER,,34.6,20,0,1
+80,39,6028,Absent,OTHER,,19.03,20,0,0
+81,0,3002,Chronic PE,PE,diagnostic,15.81,44,1,0
+82,1,3022,Chronic PE,PE,diagnostic,59,44,1,1
+83,2,3024,Chronic PE,PE,diagnostic,25.37,44,1,0
+84,3,4005,Pulmonary embolism present,PE,diagnostic,46.46,44,1,1
+85,4,4037,Pulmonary embolism present,PE,diagnostic,44.17,44,1,1
+86,5,4039,Non-diagnostic of pulmonary embolism,PE,Non-diagnostic,11.57,44,1,0
+87,6,5009,Pulmonary embolism present,PE,diagnostic,66.42,44,1,1
+88,7,5010,Pulmonary embolism present,PE,diagnostic,50.36,44,1,1
+89,8,5011,Pulmonary embolism present,PE,diagnostic,57.52,44,1,1
+90,9,5018,Non diagnostic for pulmonary embolism,PE,Non-diagnostic,47.82,44,1,1
+91,10,5020,Pulmonary embolism present,PE,diagnostic,48.57,44,1,1
+92,11,6018,Present,PE,diagnostic,11.48,44,1,0
+93,12,6020,Nondiagnostic,PE,Non-diagnostic,55.12,44,1,1
+94,13,6025,Nondiagnostic,PE,Non-diagnostic,69.72,44,1,1
+95,14,1020,PH,OTHER,,28.11,44,0,0
+96,15,1028,PH,OTHER,,19.6,44,0,0
+97,16,2010,Cancer carcinoma,OTHER,,12.23,44,0,0
+98,17,3007,Pulmonary arteriovenous malformation,OTHER,,57.51,44,0,1
+99,18,3009,OTHER,OTHER,,59.55,44,0,1
+100,19,3020,Normal,OTHER,,27.31,44,0,0
+101,20,3023,Cancer cacinoma,OTHER,,43.33,44,0,0
+102,21,4013,Lung infection,OTHER,,33.43,44,0,0
+103,22,4014,Pulmonary embolism absent,OTHER,,1.09,44,0,0
+104,23,4022,Pulmonary hypertension,OTHER,,30.15,44,0,0
+105,24,4026,Pulmonary hypertension,OTHER,,51.91,44,0,1
+106,25,4027,Pulmonary embolism absent,OTHER,,36.11,44,0,0
+107,26,4044,Pulmonary hypertension,OTHER,,26.5,44,0,0
+108,27,4045,Carcinoma of lung,OTHER,,9.75,44,0,0
+109,28,4046,Pulmonary hypertension,OTHER,,29.67,44,0,0
+110,29,4076,Pulmonary embolism absent,OTHER,,18.7,44,0,0
+111,30,5001,Pulmonary embolism absent,OTHER,,36.2,44,0,0
+112,31,5002,Pulmonary embolism absent,OTHER,,45.07,44,0,1
+113,32,5003,Pulmonary embolism absent,OTHER,,1.27,44,0,0
+114,33,5013,Pulmonary embolism absent,OTHER,,43.24,44,0,0
+115,34,5028,Pulmonary embolism absent,OTHER,,38.96,44,0,0
+116,35,6004,Absent,OTHER,,36.01,44,0,0
+117,36,6005,Absent,OTHER,,22.07,44,0,0
+118,37,6013,Absent,OTHER,,41.05,44,0,0
+119,38,6014,Absent,OTHER,,17,44,0,0
+120,39,6021,Absent,OTHER,,26.9,44,0,0
+121,0,1010,PE,PE,diagnostic,44.33,30,1,1
+122,1,2000,Chronic PE,PE,diagnostic,46.8,30,1,1
+123,2,3010,PE,PE,diagnostic,34.74,30,1,1
+124,3,4000,Pulmonary embolism present,PE,diagnostic,32.76,30,1,1
+125,4,4003,Pulmonary embolism present,PE,diagnostic,35.63,30,1,1
+126,5,4004,Pulmonary embolism present,PE,diagnostic,53.27,30,1,1
+127,6,4019,Pulmonary embolism present,PE,diagnostic,33.5,30,1,1
+128,7,4036,Chronic pulmonary embolism,PE,diagnostic,23.17,30,1,0
+129,8,4048,Pulmonary embolism present,PE,diagnostic,31.76,30,1,1
+130,9,4049,Chronic pulmonary embolism,PE,diagnostic,21.34,30,1,0
+131,10,4050,Chronic pulmonary embolism,PE,diagnostic,37,30,1,1
+132,11,5021,Non diagnostic for pulmonary embolism,PE,Non-diagnostic,32.43,30,1,1
+133,12,6031,Nondiagnostic,PE,Non-diagnostic,47.83,30,1,1
+134,13,1003,Hypoxia,OTHER,,52.76,30,0,1
+135,14,1006,Congestive heart failure,OTHER,,52.86,30,0,1
+136,15,1011,PH,OTHER,,49.92,30,0,1
+137,16,1012,PH,OTHER,,14.8,30,0,0
+138,17,1014,Cancer carcinoma,OTHER,,32.63,30,0,1
+139,18,1022,PH,OTHER,,26.49,30,0,0
+140,19,1026,Chest pain,OTHER,,24.68,30,0,0
+141,20,2003,PH,OTHER,,11.66,30,0,0
+142,21,2004,Systemic lupus erythematosus,OTHER,,28.47,30,0,0
+143,22,3017,PH,OTHER,,32.36,30,0,1
+144,23,3028,Acute on chronic renal failure,OTHER,,29.44,30,0,0
+145,24,4016,Pulmonary embolism absent,OTHER,,29.76,30,0,0
+146,25,4028,Pulmonary embolism absent,OTHER,,29.93,30,0,0
+147,26,4031,Pulmonary embolism absent,OTHER,,46.92,30,0,1
+148,27,4033,Pulmonary hypertension,OTHER,,13.26,30,0,0
+149,28,4034,Pulmonary hypertension,OTHER,,15.13,30,0,0
+150,29,4041,Pulmonary angiosarcoma,OTHER,,13.68,30,0,0
+151,30,4056,Bronchiectasis,OTHER,,29.54,30,0,0
+152,31,5008,Pulmonary embolism absent,OTHER,,39.82,30,0,1
+153,32,5017,Pulmonary embolism absent,OTHER,,33.54,30,0,1
+154,33,5023,Pulmonary hypertension,OTHER,,22.96,30,0,0
+155,34,5025,Pulmonary embolism absent,OTHER,,49.58,30,0,1
+156,35,6017,Absent,OTHER,,19.88,30,0,0
+157,36,6024,Absent,OTHER,,16.01,30,0,0
+158,37,6026,Absent,OTHER,,8.34,30,0,0
+159,38,6027,Absent,OTHER,,14.62,30,0,0
+160,39,6038,Absent,OTHER,,25.41,30,0,0
+161,0,1017,PE,PE,diagnostic,1.41,85,1,0
+162,1,3005,Chronic PE,PE,diagnostic,100,85,1,1
+163,2,3029,Chronic PE,PE,diagnostic,99.99,85,1,1
+164,3,4059,Pulmonary embolism present,PE,diagnostic,100,85,1,1
+165,4,5005,Non diagnostic for pulmonary embolism,PE,Non-diagnostic,7.55,85,1,0
+166,5,6022,Nondiagnostic,PE,Non-diagnostic,0.04,85,1,0
+167,6,6032,Nondiagnostic,PE,Non-diagnostic,100,85,1,1
+168,7,1000,PH,OTHER,,5.79,85,0,0
+169,8,1004,PH,OTHER,,2.51,85,0,0
+170,9,1007,PH,OTHER,,0.01,85,0,0
+171,10,1008,PH,OTHER,,19.04,85,0,0
+172,11,1015,Chest pain,OTHER,,2.69,85,0,0
+173,12,1023,Normal,OTHER,,0,85,0,0
+174,13,1024,Hepatopulmonary syndrome,OTHER,,0,85,0,0
+175,14,2009,Cancer carcinoma,OTHER,,84.78,85,0,0
+176,15,2013,Systemic lupus erythematosus,OTHER,,1.63,85,0,0
+177,16,3006,PH,OTHER,,0,85,0,0
+178,17,3011,Normal,OTHER,,3.08,85,0,0
+179,18,3021,PH,OTHER,,0,85,0,0
+180,19,3026,Deep venous thrombosis/Myocardial infarction,OTHER,,0,85,0,0
+181,20,4001,Pulmonary hypertension,OTHER,,0.02,85,0,0
+182,21,4002,Pulmonary embolism absent,OTHER,,0,85,0,0
+183,22,4006,Pulmonary hypertension,OTHER,,6.03,85,0,0
+184,23,4008,Pulmonary embolism absent,OTHER,,0,85,0,0
+185,24,4018,Pulmonary hypertension,OTHER,,0.17,85,0,0
+186,25,4020,Pulmonary leiomyosarcoma,OTHER,,1.15,85,0,0
+187,26,4021,Pulmonary embolism absent,OTHER,,0.14,85,0,0
+188,27,4023,Normal,OTHER,,0,85,0,0
+189,28,4035,Lung metastases,OTHER,,0,85,0,0
+190,29,4043,Carcinoma of lung,OTHER,,0,85,0,0
+191,30,4055,Pulmonary embolism absent,OTHER,,0,85,0,0
+192,31,4057,Pulmonary angiosarcoma,OTHER,,5.74,85,0,0
+193,32,4058,Pulmonary hypertension,OTHER,,0,85,0,0
+194,33,5014,Pulmonary embolism absent,OTHER,,16.51,85,0,0
+195,34,6002,Absent,OTHER,,1.94,85,0,0
+196,35,6003,Absent,OTHER,,0,85,0,0
+197,36,6006,Ca Lung,OTHER,,26.47,85,0,0
+198,37,6010,Absent,OTHER,,0,85,0,0
+199,38,6019,Absent,OTHER,,0,85,0,0
+200,39,6030,Absent,OTHER,,0,85,0,0
