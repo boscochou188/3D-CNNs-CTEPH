@@ -1,3 +1,5 @@
+We simplify the alphabet in the coding, CTEPH > PE  ,  Non-CTEPH > nr  
+
 1. put all the .ipynb , .csv and folder in the same path. Then, run below code one by one.
 
 2. "preprocess.ipynb" : modify the input,output and label .csv path.
